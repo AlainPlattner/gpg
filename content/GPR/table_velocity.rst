@@ -1,7 +1,7 @@
 .. _GPR_table_velocity:
 
-Propagation Velocities of Dielectric Materials
-**********************************************
+Propagation Velocities
+**********************
 
 Here are the approximate dielectric permittivities, electrical conductivities and radiowave velocities for various materials.
 Average velocity refers to a ballpark value for each material.

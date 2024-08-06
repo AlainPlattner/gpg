@@ -1,4 +1,4 @@
-.. _physical_properties_conductivity:
+.. _GPR_physical_properties_conductivity:
 
 Electrical Conductivity
 ***********************

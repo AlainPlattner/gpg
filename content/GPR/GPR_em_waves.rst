@@ -1,16 +1,9 @@
-.. _GPR_physical_properties:
+.. _GPR_em_waves:
 
-Physical Properties
-*******************
+Electromagnetic waves
+*********************
 
-
-Unlike the survey methods discussed previously, signals corresponding to ground penetrating radar (GPR) depend on a multitude of physical properties.
-The most important physical property to GPR is the :ref:`dielectric permittivity <physical_properties_dielectric_permittivity>` (:math:`\varepsilon`), as it greatly influences the velocity, attenuation, reflection, refraction and transmission of radiowaves.
-These concepts will be presented in the following section.
-Dielectric permittivity is considered the diagnostic physical property for GPR.
-In addition to the dielectric permittivity, the propagation of radiowaves through the Earth may depend significantly on the :ref:`electrical conductivity<physical_properties_conductivity>` (:math:`\sigma`); provided the electrical conductivity of the Earth is sufficiently large.
-Radiowaves will also reflect off of very conductive objects buried in the Earth.
-If the Earth is magnetic, we may also need to consider the role of :ref:`magnetic permeability<physprop_mag_susc>` (:math:`\mu`).
+Ground penetrating radar uses electromagnetic waves, with which you are likely familiar from a broad range of every day usages. For example, your mobile phone uses electromagnetic waves to transmit data and make calls. 
 
 
 Example: Microwaves

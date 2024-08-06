@@ -1,9 +1,13 @@
-.. _physprop_mag_susc:
+.. _GPR_physprop_mag_susc:
 
-Susceptibility
-**************
+Magnetic Permeability and Susceptibility
+****************************************
 
-Magnetic susceptibility (:math:`\kappa`) quantifies the magnetization (:math:`\vec M`) a rock or mineral experiences when it is subjected to an applied magnetic field (:math:`\vec H`). This relationship takes the form:
+Magnetic permeability (:math:`\mu`) is closely related to Magnetic
+susceptibility (:math:`\kappa`). Both quantify the magnetization
+(:math:`\vec M`) a rock or mineral experiences when it is subjected to
+an applied magnetic field (:math:`\vec H`). For magnetic susceptibility,
+this relationship takes the form:
 
 .. math::
     \vec M = \kappa \vec H

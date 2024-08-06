@@ -1,4 +1,4 @@
-.. _physical_properties_dielectric_permittivity:
+.. _GPR_physical_properties_dielectric_permittivity:
 
 Dielectric Permittivity
 ***********************
