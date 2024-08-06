@@ -62,11 +62,13 @@ It is from radargrams that we will do the majority of our interpretation of GPR 
 .. toctree::
    :maxdepth: 1
 
-
-   GPR_physical_properties
-   table_velocity
-   GPR_fundamental_principles
+   GPR_electromagnetic_waves
    GPR_survey_data
+   table_velocity
+   GPR_magnetics_susceptibility_duplicate
+   GPR_physical_properties_dielectric_permittivity
+   GPR_physical_properties_conductivity
+   GPR_fundamental_principles
    GPR_processing
    GPR_interpretation
 

@@ -49,15 +49,6 @@ Contents:
    content/electromagnetics/index
 
 
-Additional topics not covered in this course:
-
-.. toctree::
-   :maxdepth: 1   
-     
-   content/induced_polarization/index
-   content/gravity/index
-
-
 
 Contributors:
 ^^^^^^^^^^^^^
