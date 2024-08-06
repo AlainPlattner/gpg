@@ -189,14 +189,18 @@ A more detailed analysis of rock magnetic properties can be found in Clark and E
 
 .. figure:: images/rock_susceptibilities_adapted.png
     :align: center
-    :scale: 100%
+    :scale: 60%
+    :width: 200%
 
+|
+|
+	    
 
 .. figure:: images/susceptibility_chart.gif
     :align: center
     :scale: 100%
 
-
+|
 
 Factors Impacting Magnetic Susceptibility
 =========================================

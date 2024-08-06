@@ -112,10 +112,11 @@ From this chart we can infer several things:
 
 .. figure:: ./images/images_duplicates/resistivity_table.png
     :align: center
-    :scale: 100%
+    :scale: 70%
+    :width: 150%
 
 
-
+|
 
 
 Factors Affecting Rock Conductivity

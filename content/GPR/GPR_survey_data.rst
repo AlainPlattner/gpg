@@ -18,6 +18,39 @@ On this page, you will learn about:
 	- Sources of noise and their impact on GPR surveys.
 
 
+Wave Fronts and Ray Paths
+=========================
+
+A wavefront indicates the set of locations at which the phase of the wave has the same value. For example, visualize the peaks (or troughs) of water ripples after a rock has been thrown into a pond. Rays are imaginary lines perpendicular to the wavefront that indicate the path along which the wavefront is traveling. Rays are not physical entities. They exist only to illustrate where the energy travels. It is important to remark here that the arrival of energy at a sensor
+is not a point event. The energy is spread in space and time. Note how the peaks and troughs of the waves on the pond have widths, which remains constant as they propagate. Similarly, the radar wave will arrive at a sensor as a pulse of energy with some shape and width, not as a spike occurring a single instance in time. This pulse of energy is called a wavelet.
+
+.. figure:: images/wavefront.gif
+	    :align: left
+	    :scale: 90%
+		    
+.. figure:: images_new/LayeredEarth.gif
+    :align: right
+    :scale: 100%
+    :name: fig_gpr_layeredearth_gif
+
+
+
+
+
+
+To summarize:
+
+	- **Wave-front**: The physical location of the radiowave signal as it propagates through the Earth.
+	- **Ray path**: A particular path which a portion of the wave-front can take in order to reach a particular location.
+
+  
+Thus the wave-front represents the actual pulse of radiowaves, and the ray path is used to represent paths which signals can take to reach a receiver location.
+To follow a ray path, choose a small sliver of the wavefront and follow it as it reflects and propagates.
+**If at any time this portion of the wavefron reaches a sensor, it is a ray path which is measured.**
+
+
+	  
+
 Common Offset Survey
 ====================
 

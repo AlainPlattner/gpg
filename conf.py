@@ -36,8 +36,8 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.mathjax',
     'sphinx.ext.viewcode',
-    'edit_on_github',
 ]
+#   'edit_on_github',
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -127,8 +127,8 @@ pygments_style = 'sphinx'
 
 # -- Edit on Github Extension ---------------------------------------------
 
-edit_on_github_project = 'ubcgif/gpg'
-edit_on_github_branch = 'main'
+#edit_on_github_project = 'ubcgif/gpg'
+#edit_on_github_branch = 'main'
 
 # -- Options for HTML output ----------------------------------------------
 
