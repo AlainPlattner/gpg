@@ -1,8 +1,8 @@
 .. _seismic_index:
 
 
-Seismic
-=======
+Seismics
+========
 
 .. figure:: ./images/icon_refrac.gif
    :align: right

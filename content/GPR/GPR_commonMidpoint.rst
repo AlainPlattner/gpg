@@ -38,7 +38,7 @@ Once again by defining :math:`t_0 = 2d/V`, the top-layer velocity is given by:
 	V = 2 \sqrt{ \dfrac{x^2}{t^2 - t_0^2} }
 
 
-Thus, **any point** on the hyperbola can be used to determine the top-layer velocity from a common mid-point survey.
+Thus, the shape of the hyperbola can be used to determine the top-layer velocity from a common mid-point survey.
 And once :math:`V` is determined, the definition of :math:`t_0` can be used to obtain the thickness of the top layer.
 
 

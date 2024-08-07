@@ -87,8 +87,8 @@ Thus:
 Therefore, shorter pulse widths result in shorter spatial lengths.
 This was stated in the previous subsection.
 
-Examine the gif below.
-Examine the wave as it propagates through both the ground and the Earth.
+Examine the animation below.
+Observe the wave as it propagates through both the ground and the Earth.
 In which medium is the wavefront thicker/thinner?
 In which medium is the GPR signal moving slower/faster?
 Does this make sense from the equations above?
@@ -174,10 +174,10 @@ The attenuation constant depends on the physical properties of the media.
 In general, the attenuation constant can be expressed as:
 
 .. math::
-    \alpha = \omega \sqrt{\frac{\mu \varepsilon}{2}} \Bigg [ \Bigg ( 1 + \bigg ( \frac{\sigma}{\omega \varepsilon} \bigg )^2 \Bigg )^{1/2} - \; 1 \; \Bigg ]^{1/2} \approx \begin{cases} \sqrt{\dfrac{\omega \mu \sigma}{2}} \; \; &\textrm{for} \; \; \omega \varepsilon \ll \sigma \\ \dfrac{\sigma}{2} \sqrt{\dfrac{\mu}{\varepsilon}}  \; \; &\textrm{for} \; \; \sigma \ll \omega \varepsilon \end{cases}
+    \alpha = 2\pi f_c \sqrt{\frac{\mu \varepsilon}{2}} \Bigg [ \Bigg ( 1 + \bigg ( \frac{\sigma}{2\pi f_c \varepsilon} \bigg )^2 \Bigg )^{1/2} - \; 1 \; \Bigg ]^{1/2} \approx \begin{cases} \sqrt{\dfrac{2\pi f_c \mu \sigma}{2}} \; \; &\textrm{for} \; \; 2\pi f_c \varepsilon \ll \sigma \\ \dfrac{\sigma}{2} \sqrt{\dfrac{\mu}{\varepsilon}}  \; \; &\textrm{for} \; \; \sigma \ll 2\pi f_c \varepsilon \end{cases}
 
 
-Once again, we see that the wave regime approximation (:math:`\sigma \ll \omega \varepsilon`) for GPR provides a much simpler expression.
+In this formula, :math:`f_c` is the center frequency of the GPR signal. It is important to note that for low electrical conductivities  :math:`\sigma`, i.e., electrically resistive materials (the second case in the equation above), the attenuation does not depend on the frequency. This means that we can use high frequency systems and increase the resolution without reducing the depth of investigation (as long as the condition :math:`\sigma \ll 2\pi f_c \varepsilon` is met). This is why GPR works so well for sand or ice, where we can resolve fine details at great depth. On the other hand, for electrically conductive materials (high values for :math:`\sigma`), the signal does not get very deep. This is the reason why GPR does not work well for clay, unless we use a system with a low enough :math:`f_c` to reduce the value of :math:`\alpha`. But then, we won't resolve much detail.  
 
 
 

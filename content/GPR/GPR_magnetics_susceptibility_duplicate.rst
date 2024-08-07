@@ -1,25 +1,20 @@
-.. _GPR_physprop_mag_susc:
+.. _GPR_physprop_mag_perm_susc:
 
 Magnetic Permeability and Susceptibility
 ****************************************
 
-Magnetic permeability :math:`\mu` is closely related to Magnetic
-susceptibility :math:`\kappa`. Both quantify the magnetization
-:math:`\vec M` a rock or mineral experiences when it is subjected to
-an applied magnetic field :math:`\vec H`. For magnetic susceptibility,
-this relationship takes the form:
-
-.. math::
-    \vec M = \kappa \vec H
+Magnetic permeability :math:`\mu` and magnetic susceptibility :math:`\kappa` describe the same phenomenon and each can easily be calculated from the other. To understand them, we need to first discuss what magnetization and magnetic fields are.
 
 
 .. _physprop_magnetization:
 
-**Magnetization**
+
+Magnetization
+-------------
 
 Within the mineral grains comprising rocks, there are tiny magnetized volumes (magnetic domains) which behave like small bar magnets.
-The direction and magnitude of each magnetic domain is defined by its magnetic dipole moment (:math:`\vec m`).
-Magnetization (:math:`\vec M`) is defined as the dipole moment per unit volume within a material.
+The direction and magnitude of each magnetic domain is defined by its magnetic dipole moment :math:`\vec m`.
+Magnetization :math:`\vec M` is defined as the dipole moment per unit volume within a material.
 
 Let :math:`\vec m_i` be the magnetic dipole moment of the
 :math:`i^\textrm{th}` particle or magnetic domain. Within a volume
@@ -44,7 +39,8 @@ where the units for magnetization are Am :math:`\! ^2`/m :math:`\! ^3` = A/m.
 
 .. _physprop_magnetic_field:
 
-**Magnetic Field**
+Magnetic Field
+--------------
 
 The magnetic field :math:`\vec H` is responsible for applying a magnetic force
 to a material. Magnetic dipoles subjected to magnetic fields will attempt to
@@ -63,17 +59,31 @@ interactive figure illustrates this process:
     :file: susceptibility_duplicate.html
 
 
+
+
+
+.. _GPR_physprop_mag_susc:
+
+Magnetic Susceptibility
+-----------------------
+
 For many materials, the strength of the alignment of the magnetic moments
 increases linearly with the strength of the applied field. The magnetic
-susceptibility therefore defines a constant of proportionality.
+susceptibility defines the constant of proportionality between the alignment of the magnetic moments and the strength of the applied field.
+
+
+.. math::
+    \vec M = \kappa \vec H
+
 
 .. _physprop_mag_permeability:
 
-**Magnetic Permeability**
+Magnetic Permeability
+---------------------
 
 In magnetic problems, a more fundamental physical property is the magnetic
-permeability (:math:`\mu`). Magnetic permeability relates the magnetic field
-(:math:`\vec H`) to the magnetic flux density (:math:`\vec B`). This
+permeability :math:`\mu`. Magnetic permeability relates the magnetic field
+:math:`\vec H` to the magnetic flux density :math:`\vec B`. This
 constitutive relationship is written as follows:
 
 .. math::
@@ -97,9 +107,10 @@ can be defined in terms of the magnetic susceptibility as follows:
 
 
 
-**Relative Permeability**
+Relative Permeability
+---------------------
 
-Relative permeability (:math:`\mu_r`) defines the ratio between the magnetic
+Relative permeability :math:`\mu_r` defines the ratio between the magnetic
 permeability of the material and the permeability of free-space:
 
 .. math::
@@ -164,7 +175,8 @@ Therefore, the KT-10 measures a change in resonance frequency, and uses it to ap
     :align: center
     :width: 50%
 
-
+|
+	    
 **Laboratory Measurements**
 
 Laboratory measurements are based on the same physical principles as the KT-10.
