@@ -3,9 +3,9 @@
 Dielectric Permittivity
 ***********************
 
-Dielectric permittivity (:math:`\varepsilon`) represents an important diagnostic physical property for ground-penetrating radar.
+Dielectric permittivity :math:`\varepsilon` represents an important diagnostic physical property for ground-penetrating radar.
 This physical property impacts the attenuation, wavelength and velocity of electromagnetic waves as they propagate through a material.
-Dielectric permittivity is defined as the ratio between the electric field (:math:`\vec E`) within a material and the corresponding electric displacement (:math:`\vec D`):
+Dielectric permittivity is defined as the ratio between the electric field :math:`\vec E` within a material and the corresponding electric displacement :math:`\vec D`:
 
 
 .. figure:: ./images/electric_polarization_physics_diagram.png

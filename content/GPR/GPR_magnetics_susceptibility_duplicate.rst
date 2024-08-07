@@ -3,10 +3,10 @@
 Magnetic Permeability and Susceptibility
 ****************************************
 
-Magnetic permeability (:math:`\mu`) is closely related to Magnetic
-susceptibility (:math:`\kappa`). Both quantify the magnetization
-(:math:`\vec M`) a rock or mineral experiences when it is subjected to
-an applied magnetic field (:math:`\vec H`). For magnetic susceptibility,
+Magnetic permeability :math:`\mu` is closely related to Magnetic
+susceptibility :math:`\kappa`. Both quantify the magnetization
+:math:`\vec M` a rock or mineral experiences when it is subjected to
+an applied magnetic field :math:`\vec H`. For magnetic susceptibility,
 this relationship takes the form:
 
 .. math::

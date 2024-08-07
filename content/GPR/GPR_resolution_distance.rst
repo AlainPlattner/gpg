@@ -87,11 +87,16 @@ Thus:
 Therefore, shorter pulse widths result in shorter spatial lengths.
 This was stated in the previous subsection.
 
-Examine the gif in :numref:`fig_gpr_layeredearth_gif`.
+Examine the gif below.
 Examine the wave as it propagates through both the ground and the Earth.
 In which medium is the wavefront thicker/thinner?
 In which medium is the GPR signal moving slower/faster?
 Does this make sense from the equations above?
+
+.. figure:: images_new/LayeredEarth.gif
+    :align: center
+    :scale: 120%
+    :name: fig_gpr_layeredearth_gif
 
 
 Survey Resolution and Probing Distance
