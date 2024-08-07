@@ -68,7 +68,7 @@ It is from radargrams that we will do the majority of our interpretation of GPR 
    GPR_physical_properties_dielectric_permittivity
    GPR_physical_properties_conductivity
    GPR_resolution_distance
-   GPR_fundamental_principles
+   GPR_commonMidpoint
    GPR_processing
    GPR_interpretation
 

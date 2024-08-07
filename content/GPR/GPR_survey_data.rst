@@ -1,6 +1,6 @@
 .. _GPR_survey_data:
 
-Survey and Data
+Surveys and Data
 ***************
 
 Here, we discuss the various survey geometries used in GPR and some of their applications.
@@ -207,100 +207,6 @@ To apply the correction (assuming you have obtained the velocity of the top-laye
 
 3) The true dipping interface is created by drawing a line which intersects all of the arcs at only a single point (black line).
 
-
-
-
-
-Common Midpoint Survey
-======================
-
-        .. figure:: images_new/GPR_common_midpoint.png
-		:align: right
-		:figwidth: 40%
-	
-		Common midpoint survey configuration.
-		
-
-For this configuration, the distance between the transmitter and receiver are changed for every reading.
-However, the halfway point between the transmitter and the receiver is kept the same.
-As we will show, common midpoint surveys are useful for determining the top-layer velocity and thickness.
-
-From the survey schematic, we see that if the interface is approximately flat, the point of reflection is the same for all readings.
-As a result, the signal from the reflected wave in the radargram should form a hyperbola.
-
-.. figure:: images_new/GPR_example_buried_object_2.png
-	:align: right
-	:figwidth: 50%
-
-	Geometry shown how radargram can be used to find propagation velocity.
-
-
-Once again, the travel time for the radiowave signal is given by:
-
-.. math::
-	t = \frac{2 \sqrt{ x^2 + d^2 }}{V}
-
-
-where :math:`d` is the thickness of the top layer and :math:`x` is the distance between the mid-point and either the transmitter or the receiver.
-Once again by defining :math:`t_0 = 2d/V`, the top-layer velocity is given by:
-
-.. math::
-	V = 2 \sqrt{ \dfrac{x^2}{t^2 - t_0^2} }
-
-
-Thus, **any point** on the parabola can be used to determine the top-layer velocity from a common mid-point survey.
-And once :math:`V` is determined, the definition of :math:`t_0` can be used to obtain the thickness of the top layer.
-
-
-	.. figure:: images_new/GPR_survey_transillumination.jpg
-		:align: right
-		:figwidth: 40%
-	
-	        Transillumination surveys. (A) Mine-shaft structural integrity (B) Borehole survey. (C) Concrete pillar testing.
-
-
-Transillumination Survey
-========================
-
-When performing a transillumination GPR survey, multiple transmitters and receivers are placed on either side of an region of interest.
-There are many applications for transillumination surveys, some of which are mentioned here.
-
-In panel (A), a transillumination survey is being used to assess the structural integrity between two mine shafts.
-By using GPR, we can determine if there are void spaces between the mine shafts or any potential planes of weakness.
-The information collected can be used to assure the mine shaft is safe.
-
-In panel (B), we see a transillumination borehole survey.
-In some cases, a surface survey may not supply sufficient information about a particular region of interest.
-Although it is more expensive and time-consuming, this type of survey may be required.
-
-In panel (C), a GPR transmitter and receiver are placed on opposing sides of an object; in this case, a concrete pillar.
-This represents a non-invasive approach for determining internal structures.
-
-
-
-
-.. sidebar:: Wavelet Example
-
-	.. figure:: images_new/GPR_wavelet_example.png
-		:align: center
-		:figwidth: 100%
-		
-		Example of a wavelet signal.
-		
-		
-	
-	.. figure:: images_new/Electromagneticwave3D.gif
-			:align: center
-	
-			Electromagnetic waves contained within the GPR pulse. `Image source <https://commons.wikimedia.org/wiki/File:Electromagneticwave3D.gif>`__ .
-	
-	
-	
-	.. figure:: images_new/GPR_wavelet_frequencies_example.png
-		:align: center
-		:figwidth: 100%
-			
-		Band of frequencies for a particular wavelet.
 
 
 
