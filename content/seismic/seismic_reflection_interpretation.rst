@@ -63,3 +63,4 @@ with its table of velocities and frequencies illustrates.
 .. figure:: ./images/wavelen-on-photo.jpg
 	:align: center
 	:scale: 130 %
+|
