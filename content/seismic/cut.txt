@@ -1,0 +1,196 @@
+
+
+
+
+
+
+
+Fold
+----
+
+The fold refers to the number of times a particular subsurface point has been
+sampled. It is equal to the number of traces in the CMP gather and is
+numerically evaluated by
+
+.. math::
+ 		fold = \frac{N (number\;of\;geophones)}{2n}
+
+where :math:`n` is the moveup rate in units of geophone spacing. "Moveup rate"
+is in fact (shot spacing)/(geophone spacing). For example, if geophones are 2
+meters apart and shots are employed every 4 meters, then the moveup rate is
+n=4/2=2. This can be less than one if there are shots set more often than
+geophone spacing, a practice that is sometimes done in marine seismology,
+especially ocean bottom profiling.
+
+The schematic below shows a single ended spread with 8 geophones and moveup
+rate of n=2.
+
+.. figure:: ./images/fold.gif
+    :align: center
+
+We see that each point in the subsurface is sampled only twice. Notice that
+the distance between the reflection points in the subsurface is half the
+geophone spacing.
+
+
+
+
+
+
+
+
+
+
+Common MidPoints (CMP)
+----------------------
+  	
+Multiple shots and receivers are used in seismic profiling
+specifically so that some subsurface points are sampled more than once.
+Ultimately the goal is to identify all the reflections due to that point on
+the various seismograms and stack these to get an enhanced signal to noise
+ratio. The idea is illustrated on the upper figure.
+
+The collection of seismic traces that correspond to a particular midpoint is
+called a Common Midpoint (CMP) gather. In older literature, this collection of
+traces was referred to as a Common Depth Point (CDP) gather. That is not
+strictly correct, as the bottom diagram illustrates.
+
+
+ .. figure:: ./images/common_reflection_pt1.gif
+    :align: center
+
+    
+    A series of six shots and associated receivers that would have
+    reflections from a common point. When the layers are plane and horizontal
+    then this common reflection point lies midway between the source and
+    receiver
+
+
+ .. figure:: ./images/common_reflection_pt2.gif
+    :align: center
+
+    
+    Common depth point (CDP) reflection profiling. [#f1]_  (a) A set of rays
+    from different shots to detectors are reflected off a common point on a
+    horizontal reflector. (b) The common depth point is not achieved in the
+    case of a dipping  reflector.
+
+
+
+
+
+
+
+
+
+
+
+Elastic model for Earth rocks
+--------------------------------
+
+Recall from the :ref:`seismic velocity <seismic_velocity_duplicate>` page of the physical properties section that the earth deforms elastically when it is deformed by a source of seismic energy. These small elastic strains will propagate as waves away in all directions from the site of the original stress. The easiest way to obtain intuition about this is to think about rocks as being made up of a set of connected springs. Apply a force (stress) to any part and you will eventually get motion elsewhere. This propagation of energy is a type of wave motion. Elastic waves can be divided into two categories:
+
+.. sidebar:: Elastic model for rocks
+
+	.. figure:: ./images/springbox.png
+		:align: center
+
+1. **Body waves** which travel through materials
+
+2. **Surface waves** which propagate along boundaries between materials such
+   as the air/earth interface.
+
+Subtypes of these two categories are described below. Each wave type travels through a given material with a velocity that depends upon the elastic properties and density of the material.
+
+
+Body Waves
+----------
+
+**Compressional waves (P waves)** propagate by compression and rarefaction and
+the velocity of such waves, :math:`v_p`, in a material with bulk modulus :math:`K`, shear modulus :math:`\mu`, and density :math:`\rho` is given by the equation
+
+.. math::
+	v_p = \sqrt{ \frac{K + 4/3\mu}{\rho} }.
+
+The figure below shows a simple animation of the motion associated with P waves.
+
+.. figure:: ./images/pwave-animated-2.gif
+	:align: center
+
+	Animation by `L. Braile`_, from his `seismic wave demo`_, licensed for non-commercial reuse.
+
+
+**Shear waves (S waves)** propagate by a pure shear strain perpendicular to the
+wave propagation. The propagation speed :math:`v_s` is given by
+
+.. math ::
+	v_s = \sqrt{\frac{\mu}{\rho} }.
+
+The below animation shows the propagation of a vertically polarized S wave. Note that an S wave could also be horizontally polarized, meaning that particle motion would be in the y direction in the coordinate system of the animation, as opposed to the z direction for vertical polarization.
+
+.. figure:: ./images/s-wave-animated.gif
+	:align: center
+
+	Animation by `L. Braile`_, from his `seismic wave demo`_, licensed for non-commercial reuse.
+
+Note that if :math:`\mu = 0` then :math:`v_s = 0`. This tells us that shear
+waves do not travel in a liquid.
+
+Seismic reflection and refraction surveying is usually carried out by the analysis of P waves. S-waves can also be used but they are harder to generate artificially compared to P-waves and require more complex receivers than ones designed to measure just P-waves. In marine surveys (unless sources and receivers are coupled directly to the ocean bottom) it is not possible to generate or measure S-waves at all. However, since :math:`v_s < v_p`, there are situations where it is beneficial to
+use S-waves instead of P-waves.
+
+
+Surface Waves
+-------------
+
+**Rayleigh waves** propagate along a free surface or on the boundary between two
+materials. Particle motion is a retrograde ellipse, and in the same plane as
+wave energy propagation. The amplitude of particle motion decays
+exponentially with depth. Rayleigh wave speed :math:`v_R < v_S`. Large
+earthquakes can generate Rayleigh waves that circumnavigate the globe. This
+provides information about the velocity structure in the upper few hundred
+kilometers of the earth.
+
+.. figure:: ./images/Rayleigh-wave-animated.gif
+	:align: center
+
+	Animation by `L. Braile`_, from his `seismic wave demo`_, licensed for non-commercial reuse.
+
+
+**Love waves** exist in a surface layer when the shear wave velocity of the
+upper layer is less than the shear wave velocity of the lower layer. The
+waves are trapped in the upper layer and the particle motion is parallel to
+the free surface and perpendicular to the direction of propagation.
+
+.. math::
+	v_{S1} < v_{Love} < v_{S2}
+
+.. figure:: ./images/Love-wave-animated.gif
+	:align: center
+
+	Animation by `L. Braile`_, from his `seismic wave demo`_, licensed for non-commercial reuse.
+
+Both Love waves and Rayleigh waves are **dispersive**. That is, different
+frequency components travel at different speeds. So the wave changes shape as
+it travels. Also, the dispersion can be used to provide information about the
+velocity structure in the upper region of the earth. For shallow work, it is
+possible to generate surface waves artificially, and then observe the waves at
+a series of locations at increasing distances from the source. This type of
+field work is sometimes called **multi-channel analysis of surface waves** or
+MASW. This is usually considered an "advanced" topic in applied geophysics.
+
+
+Wave Velocity and Particle Velocity
+-----------------------------------
+
+Seismic waves typically travel in the ground at 2-7 km/s. This is the velocity
+at which the energy moves, not the particles themselves. For comparison, sound
+travels in air at approximately 0.33 km/s. The wave energy can be recorded
+many kilometers from the source even if the source is small. The velocity and
+displacements of individual particles in the rocks are however very small;
+typical particle speeds are :math:`10^{-8}` m/s and typical ground
+displacements are :math:`10^{-10}` m. For a list of velocities of some common
+earth materials and a discussion of the geological factors that affect
+velocities please see the :ref:`seismic velocity <seismic_velocity_duplicate>` page on the physical properties
+section of this site.
+

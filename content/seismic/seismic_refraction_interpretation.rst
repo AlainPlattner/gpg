@@ -1,5 +1,8 @@
 .. _seismic_refraction_other_topics:
 
+Interpretation Pitfalls and Strategies
+**************************************
+
 
 Hidden Layers
 =============

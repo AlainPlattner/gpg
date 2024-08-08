@@ -1,7 +1,7 @@
 .. _seismic_reflection_processing:
 
-Reflection
-**********
+Reflection seismics
+*******************
 
 In reflection seismology we record seismic pulses that are reflected from
 boundaries which separate layers that have different acoustic impedances.
@@ -20,41 +20,17 @@ composited into a seismic section. This generates an image of the substructure
 that can be used in an identical manner to a radar section.
 
 In order to benefit from gathering several echoes from each reflecting point
-there are numerous operations that need to be applied to the data. Much of the
-data processing is tied to the hypothesis that the earth's properties vary
-most strongly in the vertical direction. The following points illustrate the
-fundamental procedural concept underlying the creation of a final seismic
-reflection section:
+there are numerous operations that need to be applied to the data. 
 
-
-.. figure:: ./images/geom3.gif
-	:align: right
-	:scale: 152 %
-
-	type (3)
-
-.. figure:: ./images/geom2.gif
-	:align: right
-	:scale: 152 %
-
-	type (2)
-
-.. figure:: ./images/geom1.gif
-	:align: right
-	:scale: 152 %
-
-	type (1)
 
 .. toctree::
    :maxdepth: 1
 
-   seismic_reflection_seismogram
    seismic_reflection_filtering
    seismic_reflection_processing_fundamental
    seismic_reflection_static_corrections
-   seismic_reflection_stacking
    seismic_reflection_migration
-
+   seismic_reflection_interpretation
 
 .. note:: From Kearey, Philip and Micheal Brooks, 'An Introduction to Geophysical Exploration'. 2nd ed. Blackwell Science: 1991.
 

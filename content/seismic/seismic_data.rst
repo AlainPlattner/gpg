@@ -3,8 +3,6 @@
 Data
 ****
 
-Signals that get recorded
-=========================
 
 Each geophone produces an electrical signal that is proportional to ground
 motion (in one direction - usually vertical, but horizontal with special
@@ -28,7 +26,7 @@ the signals within the blue box are amplified and replotted, the adjustable
 figure below results.
 
 .. raw:: html
-    :file: raw_refraction_data.html
+    :file: ./raw_refraction_data.html
 
 This figure shows shorter segments of traces from 12 geophones. The signal
 amplitudes have been amplified, so all ground motions are visible. There are

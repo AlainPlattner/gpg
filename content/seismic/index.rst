@@ -32,11 +32,14 @@ Contents:
 .. toctree::
    :maxdepth: 1
 
-   elastic_properties
-   basic_principles
+   seis_waves
+   seis_phys_prop
+   reflection_refraction
    seismic_survey
    seismic_data
+   reflection_transmission_amp
    seismic_processing
-   seismic_interpretation
-   MASW
-   seismic_apps
+..  seismic_interpretation
+..   MASW
+..   seismic_apps
+

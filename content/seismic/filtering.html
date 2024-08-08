@@ -23,14 +23,14 @@ function MM_swapImage() { //v3.0
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
 
-MM_preloadImages('./../../../_images/rawseis2.gif','./../../../_images/rawseis3.gif','./../../../_images/rawseis5.gif')
+MM_preloadImages('../../_images/rawseis2.gif','../../_images/rawseis3.gif','../../_images/rawseis5.gif')
 
 </script>
 
 <table width="99%" border="0" align="center" cellpadding="0" cellspacing="0">
   <tr>
 
-      <p><b><img src="./../../../_images/rawseis2.gif" name="rawdata" width="374" height="290" align="right" id="rawdata"></b>
+      <p><b><img src="../../_images/rawseis2.gif" name="rawdata" width="374" height="290" align="right" id="rawdata"></b>
     The figures to the right illustrate effects of low pass and high pass 
 		filters. First examine the figure and try to identify aspects caused by 
 		high frequencies. Then try to identify aspects caused by lower freqeuncy 
@@ -38,11 +38,11 @@ MM_preloadImages('./../../../_images/rawseis2.gif','./../../../_images/rawseis3.
         <p>Click buttons below to switch between different versions of the same 
 		data displayed after filtering. <strong><br>
             |
-    <input name="radiobutton" type="radio" onClick="MM_swapImage('rawdata','','./../../../_images/rawseis2.gif',1)" value="radiobutton" checked>
+    <input name="radiobutton" type="radio" onClick="MM_swapImage('rawdata','','../../_images/rawseis2.gif',1)" value="radiobutton" checked>
             <em>no</em> filter | 
-    <input name="radiobutton" type="radio" onClick="MM_swapImage('rawdata','','./../../../_images/rawseis3.gif',1)" value="radiobutton">
+    <input name="radiobutton" type="radio" onClick="MM_swapImage('rawdata','','../../_images/rawseis3.gif',1)" value="radiobutton">
     	low <em>pass</em> |
-    <input name="radiobutton" type="radio" onClick="MM_swapImage('rawdata','','./../../../_images/rawseis5.gif',1)" value="radiobutton">
+    <input name="radiobutton" type="radio" onClick="MM_swapImage('rawdata','','../../_images/rawseis5.gif',1)" value="radiobutton">
     	high <em>pass</em> |</strong>. <br>
 
     Which of these three could also be described as the result of applying a <strong>
