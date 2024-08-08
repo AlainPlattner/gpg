@@ -22,7 +22,8 @@ conductivity for rocks and minerals is presented in :numref:`Resistivity Table`.
 
 .. figure:: ./images/resistivity_table.png
     :align: center
-    :scale: 100 %
+    :scale: 70 %
+    :width: 150%
     :name: Resistivity Table
 
     Resistivity/conductivity of common materials

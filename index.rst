@@ -1,7 +1,6 @@
 Geophysics for Practicing Geoscientists
 =======================================
 
-*Adapted version by Alain Plattner. Original from* https://gpg.geosci.xyz/
 
  .. image:: intro.png
    :width: 200 px
@@ -28,9 +27,9 @@ light on mathematical development but links to deeper levels of analysis are
 provided.
 
 
-Development of the GPG is ongoing, with the core development team consisting
-of researchers and students at the University of British Columbia. We welcome
-input and collaborators! Join the development on github_.
+.. Development of the GPG is ongoing, with the core development team consisting
+.. of researchers and students at the University of British Columbia. We welcome
+.. input and collaborators! Join the development on github_.
 
 .. _github: https://github.com/ubcgif/gpg
 
@@ -63,3 +62,5 @@ This version is edited by Alain Plattner (amplattner@ua.edu). Original authors a
 .. * :ref:`genindex`
 .. * :ref:`modindex`
 .. * :ref:`search`
+
+(This is an adapted version by Alain Plattner. The original for this textbook can be found on https://gpg.geosci.xyz/ )
