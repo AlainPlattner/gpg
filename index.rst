@@ -1,5 +1,5 @@
-Geophysics for Practicing Geoscientists
-=======================================
+Geophysics for Practicing Geoscientists - GEO 369
+=================================================
 
 
  .. image:: intro.png

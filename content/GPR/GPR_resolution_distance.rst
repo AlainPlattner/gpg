@@ -1,7 +1,7 @@
 .. _GPR_resolution_distance:
 
 
-Expected resolution of a GPR survey
+Expected Resolution of a GPR Survey
 ***********************************
 
 The structures that we will be able to see with a GPR survey depend on the system that we use as well as on subsurface properties.

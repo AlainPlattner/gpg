@@ -26,6 +26,7 @@ there are numerous operations that need to be applied to the data.
 .. toctree::
    :maxdepth: 1
 
+   seismic_reflection_seismogram
    seismic_reflection_filtering
    seismic_reflection_processing_fundamental
    seismic_reflection_static_corrections

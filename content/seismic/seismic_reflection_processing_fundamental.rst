@@ -34,19 +34,23 @@ Turning data into a seismic profile
 1. We gather data using the geometry of type (3). Data from one shot into many
    geophones ("common shot data") are shown below under the label Shot Record 14.
 
-2. Next, sort these "common shot data" so that traces appear as if gathered
-   using the geometry of type (2). All traces that reflected under one location
-   are collected into a "common mid point gather", one from each of many common
-   shot data sets. (See the panel under CMP loc. 27.). This process sometimes requires shifting traces up and down in a "static correction", see :ref:`seismic_reflection_static_corrections`.
+2. Next, sort these "common shot data" so that traces appear as if
+   gathered using the geometry of type (2) in the image above. **All
+   traces that reflected under one location are collected into a
+   "common mid point gather" (CMP), one from each of many common shot data
+   sets** (see the panel under CMP loc. 27.). This process sometimes
+   requires shifting traces up and down in a "static correction", see
+   :ref:`seismic_reflection_static_corrections`.
 
-3. Stack these traces to produce one trace which represents measurements
-   obtained using the desired geometry of type (1). This is the CMP (common mid
-   point) trace. This will require a "move-out" correction to be applied.
-   **The details for this are explained below.**
+3. Stack these traces to produce one trace which represents
+   measurements obtained using the desired geometry of type (1). This
+   is the CMP (common mid point) trace. **This will require a
+   "move-out" correction such as the normal moveout (NMO)** (see
+   below) to be applied.
 
-4. Then many of these CMP traces are combined into one cross section of the
-   earth's structure. Traces are labeled **CMP number**, and the one trace shown
-   is identified with arrows.
+4. Then many of these CMP traces are combined into one cross section
+   of the earth's structure. Traces are labeled **CMP number**, and
+   the one trace shown is identified with arrows.
 
 5. Interpretation in terms of geology is the final step. The procedures to
    accomplish these steps will be explained in subsequent pages of the notes.
